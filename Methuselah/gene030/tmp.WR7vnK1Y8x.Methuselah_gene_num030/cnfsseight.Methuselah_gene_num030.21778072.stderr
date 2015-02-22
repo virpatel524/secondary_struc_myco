@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 10918 5
+$JOB_ID bcast 10918 5
+regularizer 160 160
+param: ./tmp.WR7vnK1Y8x.Methuselah_gene_num030/cnfsseight.Methuselah_gene_num030.21778072.null ./tmp.WR7vnK1Y8x.Methuselah_gene_num030/cnfsseight.Methuselah_gene_num030.21778072.input output10918
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.645161   60/93
+output10918/model.p0-1.10918
+ test ACC(MAP1): 0.27957   26/93
+ test ACC(MAP1-L8to3): 0.548387   51/93
+ train ACC: nan   0/0

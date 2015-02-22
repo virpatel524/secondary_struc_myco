@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 10907 5
+$JOB_ID bcast 10907 5
+regularizer 160 160
+param: ./tmp.NGE52E2ivI.Hamulus_gene_num015/cnfsseight.Hamulus_gene_num015.33284632.null ./tmp.NGE52E2ivI.Hamulus_gene_num015/cnfsseight.Hamulus_gene_num015.33284632.input output10907
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.0966608   55/569
+output10907/model.p0-1.10907
+ test ACC(MAP1): 0.100176   57/569
+ test ACC(MAP1-L8to3): 0.530756   302/569
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 10117 5
+$JOB_ID bcast 10117 5
+regularizer 160 160
+param: ./tmp.ZUDVNQJOCx.QuinnKiro_gene_num055/cnfsseight.QuinnKiro_gene_num055.34685634.null ./tmp.ZUDVNQJOCx.QuinnKiro_gene_num055/cnfsseight.QuinnKiro_gene_num055.34685634.input output10117
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.311111   42/135
+output10117/model.p0-1.10117
+ test ACC(MAP1): 0.266667   36/135
+ test ACC(MAP1-L8to3): 0.42963   58/135
+ train ACC: nan   0/0

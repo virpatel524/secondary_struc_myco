@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 30364 5
+$JOB_ID bcast 30364 5
+regularizer 160 160
+param: ./tmp.cUwN2nV6Te.Swirley_gene_num026/cnfsseight.Swirley_gene_num026.8512356.null ./tmp.cUwN2nV6Te.Swirley_gene_num026/cnfsseight.Swirley_gene_num026.8512356.input output30364
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.875   84/96
+output30364/model.p0-1.30364
+ test ACC(MAP1): 0.822917   79/96
+ test ACC(MAP1-L8to3): 0.822917   79/96
+ train ACC: nan   0/0

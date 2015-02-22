@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 16779 5
+$JOB_ID bcast 16779 5
+regularizer 160 160
+param: ./tmp.Qc81C04nOY.Ares_gene_num002/cnfsseight.Ares_gene_num002.22998502.null ./tmp.Qc81C04nOY.Ares_gene_num002/cnfsseight.Ares_gene_num002.22998502.input output16779
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.563584   195/346
+output16779/model.p0-1.16779
+ test ACC(MAP1): 0.442197   153/346
+ test ACC(MAP1-L8to3): 0.647399   224/346
+ train ACC: nan   0/0

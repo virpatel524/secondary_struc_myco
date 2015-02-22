@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 30030 5
+$JOB_ID bcast 30030 5
+regularizer 160 160
+param: ./tmp.47ABTLFfQF.Edtherson_gene_num026/cnfsseight.Edtherson_gene_num026.23300284.null ./tmp.47ABTLFfQF.Edtherson_gene_num026/cnfsseight.Edtherson_gene_num026.23300284.input output30030
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.0364964   25/685
+output30030/model.p0-1.30030
+ test ACC(MAP1): 0.0364964   25/685
+ test ACC(MAP1-L8to3): 0.515328   353/685
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 31891 5
+$JOB_ID bcast 31891 5
+regularizer 160 160
+param: ./tmp.k5nyxV3MAu.Pipefish_gene_num057/cnfsseight.Pipefish_gene_num057.32267249.null ./tmp.k5nyxV3MAu.Pipefish_gene_num057/cnfsseight.Pipefish_gene_num057.32267249.input output31891
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.548794   478/871
+output31891/model.p0-1.31891
+ test ACC(MAP1): 0.301952   263/871
+ test ACC(MAP1-L8to3): 0.45465   396/871
+ train ACC: nan   0/0

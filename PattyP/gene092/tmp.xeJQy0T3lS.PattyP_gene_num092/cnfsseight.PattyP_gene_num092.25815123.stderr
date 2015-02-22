@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 7653 4
+$JOB_ID bcast 7653 4
+regularizer 160 160
+param: ./tmp.xeJQy0T3lS.PattyP_gene_num092/cnfsseight.PattyP_gene_num092.25815123.null ./tmp.xeJQy0T3lS.PattyP_gene_num092/cnfsseight.PattyP_gene_num092.25815123.input output7653
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.477612   32/67
+output7653/model.p0-1.7653
+ test ACC(MAP1): 0.328358   22/67
+ test ACC(MAP1-L8to3): 0.537313   36/67
+ train ACC: nan   0/0

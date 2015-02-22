@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 19058 5
+$JOB_ID bcast 19058 5
+regularizer 160 160
+param: ./tmp.I5Eq9aPDMA.Wee_gene_num042/cnfsseight.Wee_gene_num042.74460514.null ./tmp.I5Eq9aPDMA.Wee_gene_num042/cnfsseight.Wee_gene_num042.74460514.input output19058
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.964286   54/56
+output19058/model.p0-1.19058
+ test ACC(MAP1): 0.482143   27/56
+ test ACC(MAP1-L8to3): 0.803571   45/56
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 6295 4
+$JOB_ID bcast 6295 4
+regularizer 160 160
+param: ./tmp.l0dJuOfUxK.Pixie_gene_num054/cnfsseight.Pixie_gene_num054.23777732.null ./tmp.l0dJuOfUxK.Pixie_gene_num054/cnfsseight.Pixie_gene_num054.23777732.input output6295
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.57554   80/139
+output6295/model.p0-1.6295
+ test ACC(MAP1): 0.374101   52/139
+ test ACC(MAP1-L8to3): 0.532374   74/139
+ train ACC: nan   0/0

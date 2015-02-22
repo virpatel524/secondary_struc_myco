@@ -1,0 +1,24 @@
+#RaptorX-SS3: three-class secondary structure prediction results
+#probabilities are in the order of H(alpha helix) E(beta strand) C(loops), the 3 secondary structure types used in PSIPRED
+
+   1 M C   0.000 0.000 1.000 
+   2 T C   0.255 0.029 0.715 
+   3 A H   0.708 0.024 0.269 
+   4 T H   0.801 0.029 0.170 
+   5 A H   0.942 0.015 0.043 
+   6 Y H   0.955 0.011 0.033 
+   7 A H   0.975 0.009 0.016 
+   8 A H   0.964 0.009 0.028 
+   9 C H   0.933 0.008 0.058 
+  10 I H   0.962 0.006 0.033 
+  11 T H   0.974 0.003 0.023 
+  12 D H   0.961 0.002 0.037 
+  13 L H   0.956 0.002 0.042 
+  14 M H   0.932 0.004 0.064 
+  15 A H   0.829 0.003 0.168 
+  16 D H   0.675 0.005 0.320 
+  17 M H   0.601 0.018 0.381 
+  18 A C   0.330 0.046 0.624 
+  19 D C   0.205 0.026 0.769 
+  20 A C   0.131 0.008 0.862 
+  21 T C   0.000 0.000 1.000 

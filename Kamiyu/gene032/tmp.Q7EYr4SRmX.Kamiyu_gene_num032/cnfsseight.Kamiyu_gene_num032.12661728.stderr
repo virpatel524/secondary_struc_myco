@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 8102 4
+$JOB_ID bcast 8102 4
+regularizer 160 160
+param: ./tmp.Q7EYr4SRmX.Kamiyu_gene_num032/cnfsseight.Kamiyu_gene_num032.12661728.null ./tmp.Q7EYr4SRmX.Kamiyu_gene_num032/cnfsseight.Kamiyu_gene_num032.12661728.input output8102
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.0195652   9/460
+output8102/model.p0-1.8102
+ test ACC(MAP1): 0.0304348   14/460
+ test ACC(MAP1-L8to3): 0.35   161/460
+ train ACC: nan   0/0

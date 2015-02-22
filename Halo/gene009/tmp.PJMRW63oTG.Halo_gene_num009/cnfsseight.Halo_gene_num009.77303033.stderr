@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 16270 5
+$JOB_ID bcast 16270 5
+regularizer 160 160
+param: ./tmp.PJMRW63oTG.Halo_gene_num009/cnfsseight.Halo_gene_num009.77303033.null ./tmp.PJMRW63oTG.Halo_gene_num009/cnfsseight.Halo_gene_num009.77303033.input output16270
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.351515   58/165
+output16270/model.p0-1.16270
+ test ACC(MAP1): 0.327273   54/165
+ test ACC(MAP1-L8to3): 0.563636   93/165
+ train ACC: nan   0/0

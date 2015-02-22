@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 3809 4
+$JOB_ID bcast 3809 4
+regularizer 160 160
+param: ./tmp.cmhlxJjHXF.Winky_gene_num101/cnfsseight.Winky_gene_num101.56203333.null ./tmp.cmhlxJjHXF.Winky_gene_num101/cnfsseight.Winky_gene_num101.56203333.input output3809
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.592857   83/140
+output3809/model.p0-1.3809
+ test ACC(MAP1): 0.435714   61/140
+ test ACC(MAP1-L8to3): 0.478571   67/140
+ train ACC: nan   0/0

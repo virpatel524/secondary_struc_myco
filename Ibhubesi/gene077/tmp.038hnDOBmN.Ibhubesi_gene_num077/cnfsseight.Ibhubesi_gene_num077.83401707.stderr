@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 3322 4
+$JOB_ID bcast 3322 4
+regularizer 160 160
+param: ./tmp.038hnDOBmN.Ibhubesi_gene_num077/cnfsseight.Ibhubesi_gene_num077.83401707.null ./tmp.038hnDOBmN.Ibhubesi_gene_num077/cnfsseight.Ibhubesi_gene_num077.83401707.input output3322
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.5625   63/112
+output3322/model.p0-1.3322
+ test ACC(MAP1): 0.375   42/112
+ test ACC(MAP1-L8to3): 0.517857   58/112
+ train ACC: nan   0/0

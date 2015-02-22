@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 25436 5
+$JOB_ID bcast 25436 5
+regularizer 160 160
+param: ./tmp.k7utdlmSig.Phaux_gene_num075/cnfsseight.Phaux_gene_num075.95399434.null ./tmp.k7utdlmSig.Phaux_gene_num075/cnfsseight.Phaux_gene_num075.95399434.input output25436
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.629032   78/124
+output25436/model.p0-1.25436
+ test ACC(MAP1): 0.491935   61/124
+ test ACC(MAP1-L8to3): 0.572581   71/124
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 30160 5
+$JOB_ID bcast 30160 5
+regularizer 160 160
+param: ./tmp.SaR3jDmCxa.Optimus_gene_num090/cnfsseight.Optimus_gene_num090.46719745.null ./tmp.SaR3jDmCxa.Optimus_gene_num090/cnfsseight.Optimus_gene_num090.46719745.input output30160
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.776978   108/139
+output30160/model.p0-1.30160
+ test ACC(MAP1): 0.438849   61/139
+ test ACC(MAP1-L8to3): 0.618705   86/139
+ train ACC: nan   0/0

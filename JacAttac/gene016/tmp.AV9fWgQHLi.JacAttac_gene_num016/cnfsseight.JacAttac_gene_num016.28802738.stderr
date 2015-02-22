@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 16385 5
+$JOB_ID bcast 16385 5
+regularizer 160 160
+param: ./tmp.AV9fWgQHLi.JacAttac_gene_num016/cnfsseight.JacAttac_gene_num016.28802738.null ./tmp.AV9fWgQHLi.JacAttac_gene_num016/cnfsseight.JacAttac_gene_num016.28802738.input output16385
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.887931   103/116
+output16385/model.p0-1.16385
+ test ACC(MAP1): 0.775862   90/116
+ test ACC(MAP1-L8to3): 0.775862   90/116
+ train ACC: nan   0/0

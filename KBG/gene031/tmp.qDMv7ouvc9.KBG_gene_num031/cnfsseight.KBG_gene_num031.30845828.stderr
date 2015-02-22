@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 31694 5
+$JOB_ID bcast 31694 5
+regularizer 160 160
+param: ./tmp.qDMv7ouvc9.KBG_gene_num031/cnfsseight.KBG_gene_num031.30845828.null ./tmp.qDMv7ouvc9.KBG_gene_num031/cnfsseight.KBG_gene_num031.30845828.input output31694
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.805556   87/108
+output31694/model.p0-1.31694
+ test ACC(MAP1): 0.796296   86/108
+ test ACC(MAP1-L8to3): 0.842593   91/108
+ train ACC: nan   0/0

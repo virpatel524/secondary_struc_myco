@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 15563 5
+$JOB_ID bcast 15563 5
+regularizer 160 160
+param: ./tmp.THQk41F7xv.Dorothy_gene_num094/cnfsseight.Dorothy_gene_num094.69630674.null ./tmp.THQk41F7xv.Dorothy_gene_num094/cnfsseight.Dorothy_gene_num094.69630674.input output15563
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.56872   120/211
+output15563/model.p0-1.15563
+ test ACC(MAP1): 0.507109   107/211
+ test ACC(MAP1-L8to3): 0.587678   124/211
+ train ACC: nan   0/0

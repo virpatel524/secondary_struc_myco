@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 26440 5
+$JOB_ID bcast 26440 5
+regularizer 160 160
+param: ./tmp.gSD8A7LU4Z.Shauna1_gene_num028/cnfsseight.Shauna1_gene_num028.66700580.null ./tmp.gSD8A7LU4Z.Shauna1_gene_num028/cnfsseight.Shauna1_gene_num028.66700580.input output26440
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.53012   176/332
+output26440/model.p0-1.26440
+ test ACC(MAP1): 0.400602   133/332
+ test ACC(MAP1-L8to3): 0.548193   182/332
+ train ACC: nan   0/0

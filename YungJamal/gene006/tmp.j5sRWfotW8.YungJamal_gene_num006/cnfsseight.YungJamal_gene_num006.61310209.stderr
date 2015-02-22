@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 14044 5
+$JOB_ID bcast 14044 5
+regularizer 160 160
+param: ./tmp.j5sRWfotW8.YungJamal_gene_num006/cnfsseight.YungJamal_gene_num006.61310209.null ./tmp.j5sRWfotW8.YungJamal_gene_num006/cnfsseight.YungJamal_gene_num006.61310209.input output14044
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.438503   82/187
+output14044/model.p0-1.14044
+ test ACC(MAP1): 0.294118   55/187
+ test ACC(MAP1-L8to3): 0.352941   66/187
+ train ACC: nan   0/0

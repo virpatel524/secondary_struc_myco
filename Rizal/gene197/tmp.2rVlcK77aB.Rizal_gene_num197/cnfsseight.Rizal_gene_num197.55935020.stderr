@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 32049 5
+$JOB_ID bcast 32049 5
+regularizer 160 160
+param: ./tmp.2rVlcK77aB.Rizal_gene_num197/cnfsseight.Rizal_gene_num197.55935020.null ./tmp.2rVlcK77aB.Rizal_gene_num197/cnfsseight.Rizal_gene_num197.55935020.input output32049
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.497797   113/227
+output32049/model.p0-1.32049
+ test ACC(MAP1): 0.405286   92/227
+ test ACC(MAP1-L8to3): 0.621145   141/227
+ train ACC: nan   0/0

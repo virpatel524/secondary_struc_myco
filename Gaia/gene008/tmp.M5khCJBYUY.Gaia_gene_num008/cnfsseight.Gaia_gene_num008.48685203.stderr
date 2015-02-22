@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 6478 4
+$JOB_ID bcast 6478 4
+regularizer 160 160
+param: ./tmp.M5khCJBYUY.Gaia_gene_num008/cnfsseight.Gaia_gene_num008.48685203.null ./tmp.M5khCJBYUY.Gaia_gene_num008/cnfsseight.Gaia_gene_num008.48685203.input output6478
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.712644   62/87
+output6478/model.p0-1.6478
+ test ACC(MAP1): 0.563218   49/87
+ test ACC(MAP1-L8to3): 0.781609   68/87
+ train ACC: nan   0/0

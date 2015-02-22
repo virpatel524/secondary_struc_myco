@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 25971 5
+$JOB_ID bcast 25971 5
+regularizer 160 160
+param: ./tmp.3VkvIlW24f.CaptainTrips_gene_num042/cnfsseight.CaptainTrips_gene_num042.84129234.null ./tmp.3VkvIlW24f.CaptainTrips_gene_num042/cnfsseight.CaptainTrips_gene_num042.84129234.input output25971
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.133333   20/150
+output25971/model.p0-1.25971
+ test ACC(MAP1): 0.133333   20/150
+ test ACC(MAP1-L8to3): 0.48   72/150
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 3974 4
+$JOB_ID bcast 3974 4
+regularizer 160 160
+param: ./tmp.4Np1NGpi8a.PhatBacter_gene_num025/cnfsseight.PhatBacter_gene_num025.74593633.null ./tmp.4Np1NGpi8a.PhatBacter_gene_num025/cnfsseight.PhatBacter_gene_num025.74593633.input output3974
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0   0/277
+output3974/model.p0-1.3974
+ test ACC(MAP1): 0   0/277
+ test ACC(MAP1-L8to3): 0.454874   126/277
+ train ACC: nan   0/0

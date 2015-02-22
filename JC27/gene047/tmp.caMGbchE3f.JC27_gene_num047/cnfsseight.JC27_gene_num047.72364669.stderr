@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 6237 4
+$JOB_ID bcast 6237 4
+regularizer 160 160
+param: ./tmp.caMGbchE3f.JC27_gene_num047/cnfsseight.JC27_gene_num047.72364669.null ./tmp.caMGbchE3f.JC27_gene_num047/cnfsseight.JC27_gene_num047.72364669.input output6237
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.236842   18/76
+output6237/model.p0-1.6237
+ test ACC(MAP1): 0.105263   8/76
+ test ACC(MAP1-L8to3): 0.592105   45/76
+ train ACC: nan   0/0

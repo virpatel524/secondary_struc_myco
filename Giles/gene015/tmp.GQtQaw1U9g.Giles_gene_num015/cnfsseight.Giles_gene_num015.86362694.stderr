@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 29781 5
+$JOB_ID bcast 29781 5
+regularizer 160 160
+param: ./tmp.GQtQaw1U9g.Giles_gene_num015/cnfsseight.Giles_gene_num015.86362694.null ./tmp.GQtQaw1U9g.Giles_gene_num015/cnfsseight.Giles_gene_num015.86362694.input output29781
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.145251   26/179
+output29781/model.p0-1.29781
+ test ACC(MAP1): 0.0391061   7/179
+ test ACC(MAP1-L8to3): 0.50838   91/179
+ train ACC: nan   0/0

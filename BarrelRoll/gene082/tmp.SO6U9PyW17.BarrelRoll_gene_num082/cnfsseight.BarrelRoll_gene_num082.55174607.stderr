@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 4761 4
+$JOB_ID bcast 4761 4
+regularizer 160 160
+param: ./tmp.SO6U9PyW17.BarrelRoll_gene_num082/cnfsseight.BarrelRoll_gene_num082.55174607.null ./tmp.SO6U9PyW17.BarrelRoll_gene_num082/cnfsseight.BarrelRoll_gene_num082.55174607.input output4761
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.692308   45/65
+output4761/model.p0-1.4761
+ test ACC(MAP1): 0.646154   42/65
+ test ACC(MAP1-L8to3): 0.707692   46/65
+ train ACC: nan   0/0

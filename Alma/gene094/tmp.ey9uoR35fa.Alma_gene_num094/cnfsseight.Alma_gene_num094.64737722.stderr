@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 23285 5
+$JOB_ID bcast 23285 5
+regularizer 160 160
+param: ./tmp.ey9uoR35fa.Alma_gene_num094/cnfsseight.Alma_gene_num094.64737722.null ./tmp.ey9uoR35fa.Alma_gene_num094/cnfsseight.Alma_gene_num094.64737722.input output23285
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.865672   58/67
+output23285/model.p0-1.23285
+ test ACC(MAP1): 0.835821   56/67
+ test ACC(MAP1-L8to3): 0.880597   59/67
+ train ACC: nan   0/0

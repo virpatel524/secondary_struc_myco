@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 11149 5
+$JOB_ID bcast 11149 5
+regularizer 160 160
+param: ./tmp.6zKQTyB8KV.PackMan_gene_num002/cnfsseight.PackMan_gene_num002.25057620.null ./tmp.6zKQTyB8KV.PackMan_gene_num002/cnfsseight.PackMan_gene_num002.25057620.input output11149
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.653386   164/251
+output11149/model.p0-1.11149
+ test ACC(MAP1): 0.494024   124/251
+ test ACC(MAP1-L8to3): 0.589641   148/251
+ train ACC: nan   0/0

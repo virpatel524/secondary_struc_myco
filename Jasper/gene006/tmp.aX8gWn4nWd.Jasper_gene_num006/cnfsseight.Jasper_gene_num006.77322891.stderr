@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 17613 5
+$JOB_ID bcast 17613 5
+regularizer 160 160
+param: ./tmp.aX8gWn4nWd.Jasper_gene_num006/cnfsseight.Jasper_gene_num006.77322891.null ./tmp.aX8gWn4nWd.Jasper_gene_num006/cnfsseight.Jasper_gene_num006.77322891.input output17613
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.741573   264/356
+output17613/model.p0-1.17613
+ test ACC(MAP1): 0.325843   116/356
+ test ACC(MAP1-L8to3): 0.581461   207/356
+ train ACC: nan   0/0

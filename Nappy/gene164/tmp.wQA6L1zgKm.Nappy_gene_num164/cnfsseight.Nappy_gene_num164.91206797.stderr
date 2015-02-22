@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 19558 5
+$JOB_ID bcast 19558 5
+regularizer 160 160
+param: ./tmp.wQA6L1zgKm.Nappy_gene_num164/cnfsseight.Nappy_gene_num164.91206797.null ./tmp.wQA6L1zgKm.Nappy_gene_num164/cnfsseight.Nappy_gene_num164.91206797.input output19558
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.453488   39/86
+output19558/model.p0-1.19558
+ test ACC(MAP1): 0.418605   36/86
+ test ACC(MAP1-L8to3): 0.674419   58/86
+ train ACC: nan   0/0

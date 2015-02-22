@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 20293 5
+$JOB_ID bcast 20293 5
+regularizer 160 160
+param: ./tmp.dLcIePfe31.Boomer_gene_num085/cnfsseight.Boomer_gene_num085.99800491.null ./tmp.dLcIePfe31.Boomer_gene_num085/cnfsseight.Boomer_gene_num085.99800491.input output20293
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.553191   52/94
+output20293/model.p0-1.20293
+ test ACC(MAP1): 0.361702   34/94
+ test ACC(MAP1-L8to3): 0.62766   59/94
+ train ACC: nan   0/0

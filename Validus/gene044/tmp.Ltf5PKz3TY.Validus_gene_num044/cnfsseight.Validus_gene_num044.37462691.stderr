@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 13208 5
+$JOB_ID bcast 13208 5
+regularizer 160 160
+param: ./tmp.Ltf5PKz3TY.Validus_gene_num044/cnfsseight.Validus_gene_num044.37462691.null ./tmp.Ltf5PKz3TY.Validus_gene_num044/cnfsseight.Validus_gene_num044.37462691.input output13208
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.476712   174/365
+output13208/model.p0-1.13208
+ test ACC(MAP1): 0.446575   163/365
+ test ACC(MAP1-L8to3): 0.619178   226/365
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 4724 4
+$JOB_ID bcast 4724 4
+regularizer 160 160
+param: ./tmp.hFIv5RUdby.Pumpkin_gene_num082/cnfsseight.Pumpkin_gene_num082.93514610.null ./tmp.hFIv5RUdby.Pumpkin_gene_num082/cnfsseight.Pumpkin_gene_num082.93514610.input output4724
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.736111   159/216
+output4724/model.p0-1.4724
+ test ACC(MAP1): 0.560185   121/216
+ test ACC(MAP1-L8to3): 0.638889   138/216
+ train ACC: nan   0/0

@@ -1,0 +1,32 @@
+I am  0
+$JOB_ID 7728 4
+$JOB_ID bcast 7728 4
+regularizer 160 160
+param: ./tmp.U0n7Q2fAKS.Tiger_gene_num079/cnfsseight.Tiger_gene_num079.38753268.null ./tmp.U0n7Q2fAKS.Tiger_gene_num079/cnfsseight.Tiger_gene_num079.38753268.input output7728
+num_states: 272
+num_label: 16
+num_params: 34548
+num_gates: 79
+num_ps_gates: 21
+num_pi_gates: 58
+window_size: 15
+dim_features: 1201
+dim_one_pos: 79
+num_params = 34548
+open model success
+Loading weights from /home/vpatel/projects/raptorx-ss3-ss8/data/model.p0-900.1561189
+Training data0 loaded
+0 1
+Initialization Finished!
+num_data = 0
+num_tst = 1
+[TRAIN]begin lbfgs
+
+Iteration:  1
+ Weight Norm: 56.5295
+ Objective: 0
+ test ACC(Viterbi): 0.422535   30/71
+output7728/model.p0-1.7728
+ test ACC(MAP1): 0.225352   16/71
+ test ACC(MAP1-L8to3): 0.690141   49/71
+ train ACC: nan   0/0
